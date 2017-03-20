@@ -1,0 +1,13 @@
+::-webkit-media-controls {
+  display:none !important;
+	
+}
+
+#size{
+    height: 1200px;
+    outline: red dotted thin;
+}
+
+#container{
+    position : fixed;
+}
