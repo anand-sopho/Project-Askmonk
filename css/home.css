@@ -1,14 +1,62 @@
+@import url(http://fonts.googleapis.com/css?family=Karla:400,700);
+
 #container{
     height: 2000px;
-	margin-left: 400px;
+	margin-left: 518px;
 }
 
-video{
+body {
+	font-family: Arial, Verdana, sans-serif;
+	font-size: 90%;
+	color: #330102;
+background: -webkit-gradient(linear, left top,
+left bottom, from(#1E0C78), to(#C7ECF8));}
+
+#navbar{
+	position: fixed;}
+#navbar {
     position: fixed;
+    right: 0; left: 0; top: 0; 
+    /* your height */
+    -webkit-transform: translate3d(0,0,0);
+    -moz-transform: translate3d(0,0,0);
+    transform: translate3d(0,0,0);
+    -webkit-transition: -webkit-transform .3s;
+    -moz-transition: -moz-transform .3s;
+    -o-transition: transform .3s;
+    transition: transform .3s;
+}
+#navbar.scrolled {
+    /* subtract your height */
+    -webkit-transform: translate3d(0,-70px,0);
+    -moz-transform: translate3d(0,-70px,0);
+    transform: translate3d(0,-70px,0);
+}
+
+#phone {
+    display: block;
+    margin: 0 auto;
+}
+
+.me{
+	color: #A3080A;}
+#leftgear{
+	margin-top: 75px;
 	
 }
 
 ::-webkit-media-controls {
   display:none !important;
 	
+}
+div.content{
+	text-align: center;
+	margin-top: 50px;
+	font-size : 150%;
+}
+div.content1, div.doze{
+	font-family: 'Karla', sans-serif;
+	font-size: 90%;
+	color: #000000;
+	text-align: center;
 }
